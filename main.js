@@ -37,7 +37,7 @@ function draw() {
                 person.play();
             }
         }
-        if(object[i].length < 0){
+        if(object.length < 0){
             document.getElementById("status").innerHTML = "Baby not detected";
             person.play();
         }
